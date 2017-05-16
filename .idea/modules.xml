@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeatherConfig.iml" filepath="$PROJECT_DIR$/WeatherConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherConfig_api.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherConfig_api.iml" group="WeatherConfig" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherConfig_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherConfig_main.iml" group="WeatherConfig" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherConfig_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherConfig_test.iml" group="WeatherConfig" />
+    </modules>
+  </component>
+</project>

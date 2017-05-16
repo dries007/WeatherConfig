@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "weatherconfig",
+    "name": "WeatherConfig",
+    "description": "Config the weather. It's that simple really.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/dries007/WeatherConfig",
+    "updateJSON": "",
+    "authorList": [
+      "Dries007"
+    ],
+    "credits": "ClayCorp got them ideas, as always. Notch for making rain so annoying.",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
