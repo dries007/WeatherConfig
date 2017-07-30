@@ -2,6 +2,7 @@
 ### Minecraft template
 # Don't sync the run folder!
 /run/
+/*.json
 
 ### Java template
 # Compiled class file
@@ -62,6 +63,7 @@ hs_err_pid*
 
 # IntelliJ
 /out/
+/classes/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
