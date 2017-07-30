@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="WeatherConfig_api" target="1.6" />
-      <module name="WeatherConfig_main" target="1.6" />
-      <module name="WeatherConfig_test" target="1.6" />
+      <module name="WeatherConfig_api" target="1.8" />
+      <module name="WeatherConfig_main" target="1.8" />
+      <module name="WeatherConfig_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

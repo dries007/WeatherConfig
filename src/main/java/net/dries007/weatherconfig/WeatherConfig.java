@@ -2,6 +2,7 @@ package net.dries007.weatherconfig;
 
 import net.dries007.weatherconfig.asm.WeatherConfigCoreMod;
 import net.minecraft.world.World;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -40,12 +41,14 @@ public class WeatherConfig
         }
 
         logger.info("We should be good to go!");
+
+        MinecraftForge.EVENT_BUS.register(this);
     }
 
     @SubscribeEvent
     public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event)
     {
-        updateConfig();
+        if (event.getModID().equals(Constants.MOD_ID)) updateConfig();
     }
 
     private void updateConfig()
